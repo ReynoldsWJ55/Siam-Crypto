@@ -1,12 +1,12 @@
-# Project Name
+# SiamLedger
 
 Project description
 
-[name](#)
+[SiamLedger | Crypto Banking"](#)
 
 ## Steps
 
-- Steps
+- Created GitHub repo
 
 ## Project Preview!
 
@@ -22,3 +22,4 @@ Reach out to me at one of the following places:
 
 > GitHub [@reynoldswj55](https://github.com/reynoldswj55) &nbsp;&middot;&nbsp;
 > Twitter [@reynoldswj55](https://twitter.com/reynoldswj55)
+> LinkedIn [@reynoldswj](https://www.linkedin.com/in/reynoldswj/)

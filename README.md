@@ -2,7 +2,7 @@
 
 Project description
 
-[SiamLedger | Crypto Banking"](#)
+[SiamLedger | Crypto Banking](#)
 
 ## Steps
 

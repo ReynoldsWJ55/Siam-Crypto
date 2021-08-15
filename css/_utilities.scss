@@ -1,0 +1,47 @@
+.primary-color {
+  color: $primary-color;
+}
+.dark-primary-color {
+  color: $dark-primary-color;
+}
+.light-primary-color {
+  color: $light-primary-color;
+}
+.light-color {
+  color: $light-color;
+}
+.dark-color {
+  color: $dark-color;
+}
+
+.active {
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid $primary-color;
+}
+
+.flex-ai-jc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+
+.side-margins {
+  max-width: 80%;
+  margin: auto;
+}
+
+.btn-primary {
+  padding: 1rem 2rem;
+  background-color: $primary-color;
+  color: $light-color;
+  border-radius: 12px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: $light-primary-color;
+  transition: ease-in-out 0.3s;
+}

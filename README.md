@@ -1,8 +1,8 @@
-# SiamLedger
+# Siam Ledger
 
 Project description
 
-[SiamLedger | Crypto Banking](#)
+[Siam Ledger | Crypto Banking](#)
 
 ## Steps
 
@@ -21,5 +21,4 @@ Project description
 Reach out to me at one of the following places:
 
 > GitHub [@reynoldswj55](https://github.com/reynoldswj55) &nbsp;&middot;&nbsp;
-> Twitter [@reynoldswj55](https://twitter.com/reynoldswj55)
 > LinkedIn [@reynoldswj](https://www.linkedin.com/in/reynoldswj/)

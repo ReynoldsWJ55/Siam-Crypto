@@ -5,8 +5,9 @@
 
 body {
   font-family: $primary-font;
-  color: $light-color;
 }
+
+// nav section
 
 .main-nav {
   z-index: 2;
@@ -34,6 +35,8 @@ body {
   }
 }
 
+// hero section
+
 .hero-content {
   background: url(/img/home/showcase.jpeg) no-repeat center center/cover;
   z-index: -10;
@@ -50,6 +53,7 @@ body {
 }
 
 .hero-content {
+  color: $light-color;
   z-index: 1;
   min-height: 100vh;
   position: relative;
@@ -63,5 +67,185 @@ body {
   p {
     font-size: 2rem;
     padding-bottom: 2rem;
+  }
+}
+
+// what we do section
+
+.what-we-do {
+  padding: 4rem 0 2rem 0;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+.what-we-do-container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  margin: 1rem;
+  i {
+    margin-bottom: 0.5rem;
+    color: $light-color;
+    background-color: $light-primary-color;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// we provide section
+
+.we-provide {
+  img {
+    width: 50%;
+  }
+}
+
+.we-provide_text {
+  width: 50%;
+  padding: 2rem;
+  text-transform: capitalize;
+  background-color: $light-primary-color;
+  color: $light-color;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 3;
+    padding: 0.75rem 0;
+  }
+}
+
+// business cases section
+
+.business-cases_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 3;
+    padding: 0.75rem 0;
+  }
+}
+
+.business-cases_images {
+  padding: 0 0.5em 0.5em 0.5em;
+  display: grid;
+  grid-template-areas:
+    "image1 image2 image3 image4"
+    "image5 image6 image7 image8";
+  gap: 0.5em;
+  img {
+    &:hover {
+      opacity: 70%;
+      cursor: pointer;
+    }
+  }
+}
+
+// main-blog section
+
+.blog-post {
+  margin: 1rem 0 2rem 0;
+}
+
+.blog-post_text {
+  background-color: $secondary-color;
+  color: $light-color;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    padding: 1rem;
+    font-size: 01rem;
+  }
+}
+
+.blog-post_image {
+  max-width: 50%;
+}
+
+// team section
+
+.team_text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+.team_photos {
+  margin: 1rem;
+  text-align: center;
+  img {
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+// contact section
+
+.contact {
+  min-height: 33vh;
+  img {
+    max-width: 50%;
+  }
+}
+
+.contact-form {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $secondary-color;
+  color: $light-color;
+}
+
+// footer section
+
+.footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+  background-color: $gray-color;
+  p {
+    color: $light-color;
   }
 }

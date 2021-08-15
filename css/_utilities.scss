@@ -45,3 +45,16 @@
   background-color: $light-primary-color;
   transition: ease-in-out 0.3s;
 }
+
+.btn-secondary {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid $light-color;
+  color: $light-color;
+  border-radius: 12px;
+}
+
+.btn-secondary:hover {
+  background-color: $dark-primary-color;
+  transition: ease-in-out 0.3s;
+}

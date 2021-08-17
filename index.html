@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Siam Ledger</title>
-  <meta name="description" content="Siam Ledger | Crypto Banking">
+  <title>Siam Crypto</title>
+  <meta name="description" content="Siam Crypto | Crypto Banking">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Siam Ledger">
+  <meta property="og:title" content="Siam Crypto">
   <meta property="og:type" content="TYPE">
   <meta property="og:url" content="URL">
   <meta property="og:image" content="IMAGE">
@@ -27,7 +27,7 @@
     <nav class="main-nav">
       <div class="main-nav__items flex side-margins">
         <a class="nav-logo_link" href="index.html">
-          <h1><span class="light-primary-color" class="span-logo"><i class="fas fa-money-check-alt"></i> Siam </span>Ledger</h1>
+          <h1><span class="light-primary-color" class="span-logo"><i class="fab fa-btc"></i> Siam </span>Crypto</h1>
         </a>
         <ul class="main-nav_links flex">
           <li><a href="#Home">Home</a></li>
@@ -39,7 +39,7 @@
       </div>
     </nav>
     <div class="hero-content flex-ai-jc">
-      <h1 class="hero-content__title">Siam Ledger Your Crypto Expert</h1>
+      <h1 class="hero-content__title">Siam Crypto Your Crypto Expert</h1>
       <p class="hero-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, velit.</p>
       <a href="#about" class="btn-primary"><i class="fas fa-chevron-right"> Learn More</i></a>
     </div>
@@ -56,12 +56,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</p>
       </div>
       <div class="box">
-        <i class="fas fa-chart-line fa-3x"></i>
+        <i class="fab fa-btc fa-3x"></i>
         <h3>Crypto Portfolio Management</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</p>
       </div>
       <div class="box">
-        <i class="fas fa-piggy-bank fa-3x"></i>
+        <i class="fas fa-chart-line fa-3x"></i>
         <h3>Alt Coin Investing</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</p>
       </div>
@@ -136,11 +136,21 @@
   <!-- contact section -->
   <section id="Contact" class="contact flex">
     <img src="/img/home/contact.jpeg" alt="">
-    <div class="contact-form flex">
+    <div class="contact-header flex">
       <h2>Get in Touch</h2>
-      form 
+      <div class="form-container">
+        <form action="" class="form flex">
+        <label  for="Name">Name</label>
+        <input type="text" for="name" required>
+        <label for="email">Email</label>
+        <input type="email" for="email" required validation>
+        <label class="last-label" for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+      </form>
+      </div>
       <button>Submit</button>
     </div>
+
   </section>
 
 <!-- footer  -->
@@ -151,7 +161,7 @@
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
       </div>
-      <p class="side-margins" >Copyright</p>
+      <p class="side-margins">Copyright &copy <span id="current-year">####</span> Siam Crypto</p>
   </footer>
   <script src="js/main.js"></script>
 </body>

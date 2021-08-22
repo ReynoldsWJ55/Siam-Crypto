@@ -23,6 +23,8 @@ Project description
 
 ##### Lightbox Feature
 
+![lightbox](https://user-images.githubusercontent.com/65702910/130355620-883244d1-883e-4a92-9e37-32d027e46299.jpg)
+
 #### Contact Section
 
 ![Contact](https://user-images.githubusercontent.com/65702910/129738354-e6f9a917-ac98-44ed-b122-af84044ed488.jpg)

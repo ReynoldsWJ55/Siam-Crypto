@@ -7,6 +7,9 @@ Project description
 ## Steps
 
 - Created GitHub repo
+- Added HTML
+- Styled page with SASS
+- Used vanilla JavaScript to create lightbox feature to display images
 
 ## Project Preview!
 
@@ -17,6 +20,8 @@ Project description
 #### About Section
 
 ![whoWeAre](https://user-images.githubusercontent.com/65702910/129738298-c5fdb50c-8606-4365-9070-22c86164f260.jpg)
+
+##### Lightbox Feature
 
 #### Contact Section
 
